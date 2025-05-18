@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.numContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.numCard {
+    padding: 30px 20px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    box-shadow: 1px 1px 10px 0px grey;
+    border-radius: 8px;
+    background-color: white;
+    transition: transform 0.3s ease;
+}
+
+.numCard:hover {
+    transform: scale(1.02);
+}
+
+.numCard img {
+    padding: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.numCard h3 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.numCard p {
+    font-size: 18px;
+    color: #444;
+}
+
+@media (max-width: 992px) {
+    .numCard {
+        width: 45%;
+    }
+}
+
+/* Телефоны */
+@media (max-width: 600px) {
+    .numCard {
+        width: 100%;
+        padding: 20px 15px;
+    }
+
+    .numCard h3 {
+        font-size: 18px;
+    }
+
+    .numCard p {
+        font-size: 16px;
+    }
+
+    .numCard img {
+        padding: 10px;
+    }
+
+    .numContainer {
+        padding: 10px;
+        gap: 15px;
+    }
+}

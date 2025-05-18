@@ -1,0 +1,13 @@
+.acc{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.acc h4{
+    border-bottom: 1px solid grey;
+    padding: 10px;
+}
+.spa{
+    color: rgba(42, 121, 194, 1);
+}

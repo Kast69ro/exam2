@@ -1,0 +1,596 @@
+*{
+    margin: 0%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+    color: #fff;
+}
+.divNav{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    font-size: 17px;
+}
+header span{
+    background-color: #07AF91;
+}
+header{
+    background-image: url('src/assets/uae-4-2048x1367 2.png');
+    width: 99vw;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 81%;
+  background-color: rgba(30, 28, 28, 0.704);
+  z-index: 1;
+}
+
+header * {
+  position: relative;
+  z-index: 2;
+}
+.headerDiv{
+    width: 80%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+h1{
+    font-size: 44px;
+    font-weight: 700;
+}
+.miniHeaderDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+.yslygi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 130px;
+    margin-top: 50px;
+}
+.miniYslygi{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+}
+section{
+    margin-top: 100px;
+}
+.first{
+    margin-left: 150px;
+    font-size: 36px;
+    color: #1178B2;
+    font-weight: 700;
+}
+.second{
+    color: #1178B2;
+    font-size: 26px;
+    font-weight: 600;
+}
+.thrid{
+    color: #000;
+    font-size: 20px;
+    font-weight: 300;
+}
+.cards{
+    width: 81%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.bigTrade{
+    background-image: url('src/assets/Rectangle 1992.png');
+    width: 99vw;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.trade{
+    width: 75%;
+    height: 60vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.bigTrade::before {
+  content: "";
+  position: absolute;
+  top: 100;
+  left: 0;
+  width: 100%;
+  height: 50vh;
+  background-color: rgba(30, 28, 28, 0.704);
+  z-index: 1;
+}
+
+.bigTrade * {
+  position: relative;
+  z-index: 2;
+}
+.green{
+    color: #fff;
+    background-color: #07AF91;
+    font-size: 40px;
+    text-align: center;
+}
+.white{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 550;
+    text-align: center;
+}
+.select{
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+.about{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.big{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mores{
+    width: 50%;
+    margin: auto;
+    gap: 5px;
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+}
+
+.mena{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    margin-left: 135px;
+}
+.txt{
+    font-size: 36px;
+}
+.txt span{
+    color: #07AF91;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.text{
+    margin-left: 150px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.pley{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    margin: auto;
+    height:40vh;
+    color: #fff;
+    gap: 10px;
+}
+.play{
+    height: 40vh;
+    background-color: #000;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+}
+.hog{
+    background-image: url('src/assets/Group 815.png');
+    width: 99vw;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.miniHog{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.thrd{
+    font-size: 36px;
+    color: #fff;
+}
+.miniHog p{
+    font-size: 20px;
+    color: #fff;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 20px;
+}
+
+.yslygi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.miniYslygi {
+  max-width: 600px;
+}
+
+.select {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.big {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.mena {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+  min-width: 280px;
+}
+
+.mores {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+  min-width: 280px;
+}
+.bigJus{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.jus{
+  width: 30%;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.slide{
+  width: 90%;
+  margin: auto;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.men{
+  width: 25%;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.texT{
+  font-size: 18px;
+}
+.mens{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.bel{
+  font-size: 40px;
+  text-align: center;
+}
+.moreCard{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  box-shadow: 1px 1px 5px 0px grey;
+}
+.moreCard img{
+  width: 100%;
+}
+.mess{
+  display: flex;
+  align-items: center;
+  font-size: 26px;
+}
+.messenger{
+  width: 30%;
+  display: flex;
+  gap: 20px;
+}
+.form{
+  padding: 30px 10px;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.form p{
+  padding: 15px;
+  border-bottom: 1px solid grey;
+}
+.minMain{
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+}
+.maiN{
+  background-image: url('src/assets/Group 815.png');
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #07AF91;
+}
+footer{
+  margin-top: 100px;
+  background-color: #07AF91;
+  padding: 20px;
+  color: #fff;
+   background-image: url('src/assets/uae-4-2048x1367 2.png');
+    width: 99vw;
+    height: 10vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.foot{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.loop{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    font-size: 17px;
+}
+
+@media (max-width: 1024px) {
+    .divNav{
+        display: none;
+    }
+
+    
+  .cards {
+    justify-content: center;
+  }
+
+  .sCard {
+    width: 45%;
+  }
+
+  .yslygi {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .miniYslygi {
+    width: 100%;
+  }
+
+  .chto {
+    width: 80%;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .divNav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+   .bigJus{
+    flex-direction: column;
+    padding: 20px;
+  }
+  .jus{
+    width: 100%;
+    
+  }
+  .men{
+    width: 50%;
+  }
+    .foot{
+    flex-direction: column;
+  }
+  footer{
+    height: 50vh;
+  }
+  .loop{
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+     .divNav{
+        display: none;
+    }
+  .sCard {
+    width: 90%;
+  }
+
+  .yslygi img {
+    width: 80%;
+    height: auto;
+  }
+
+  .select,
+  .big,
+  .cards,
+  .mores {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mena {
+    width: 90%;
+    text-align: center;
+  }
+
+  .pley img,
+  .hog img {
+    width: 100%;
+  }
+
+  .hog {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+   .bigJus{
+    flex-direction: column;
+    padding: 20px;
+  }
+  .jus{
+    width: 100%;
+  }
+  .men,.moreCard{
+    width: 50%;
+  }
+   .maiN{
+    flex-direction: column;
+  }
+  .form{
+    width: 90%;
+  }
+  .messenger{
+    flex-direction: column;
+  }
+    .foot{
+    flex-direction: column;
+  }
+  footer{
+    height: 50vh;
+  }
+  .loop{
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+    .cards{
+        width: 100%;
+    }
+     .divNav{
+        display: none;
+    }
+  .sCard h2 {
+    font-size: 1rem;
+  }
+
+  .mini h5,
+  .mini p {
+    font-size: 0.9rem;
+  }
+
+  .lol p {
+    font-size: 0.9rem;
+  }
+  .bigJus{
+    flex-direction: column;
+    padding: 20px;
+  }
+  .jus{
+    width: 100%;
+  }
+  .men ,.moreCard{
+    width: 100%;
+  }
+  .bigTrade{
+    height: 150vh;
+    padding: 50px 0;
+  }
+  .maiN{
+    flex-direction: column;
+  }
+  .form{
+    width: 90%;
+  }
+  .messenger{
+    flex-direction: column;
+  }
+  .foot{
+    flex-direction: column;
+  }
+  footer{
+    height: 50vh;
+  }
+  .loop{
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+}
+
+
